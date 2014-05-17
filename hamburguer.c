@@ -3,11 +3,7 @@
 #include <conio.h>
 #include <stdlib.h>
 
-int main()
-
-{
-   int i, quantidade = 0, quantidade2= 0 , quantidade3= 0, menu1, menu2, menu3, teleEntrega = 0, mesa1 = 0, zona = 0, reinicio;
-   float item, item2, item3, total1 = 0, total2 = 0, total3 = 0, totalGeral;
+void funcao_logo (){
 
     Sleep (500);
     system ("color 2");
@@ -36,6 +32,16 @@ int main()
     printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
     printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
     Sleep (750);
+}
+
+
+int main()
+
+{
+   int i, quantidade = 0, quantidade2= 0 , quantidade3= 0, menu1, menu2, menu3, teleEntrega = 0, mesa1 = 0, zona = 0, reinicio;
+   float item, item2, item3, total1 = 0, total2 = 0, total3 = 0, totalGeral;
+
+    funcao_logo();
 
     printf ("\n\nDeseja encomendar um lanche? (0 - Nao 1 - Sim): ");
     scanf ("%d", &menu1);
@@ -103,33 +109,7 @@ int main()
     }*/
 
     system ("cls");
-    Sleep (500);
-    system ("color 2");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 1");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 4");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 7");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
+    funcao_logo();
 
     printf ("\n\nDeseja adicionar bebidas ao pedido? (0 - Nao 1 - Sim): ");
     scanf ("%d", &menu2);
@@ -192,33 +172,7 @@ int main()
     }
 */
     system ("cls");
-    Sleep (500);
-    system ("color 2");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 1");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 4");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 7");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
+    funcao_logo();
 
     printf ("\n\nDeseja adicionar petiscos ao pedido? (0 - Nao 1 - Sim): ");
     scanf ("%d", &menu3);
@@ -263,34 +217,8 @@ int main()
         return 0;
     }
 
-        system ("cls");
-    Sleep (500);
-    system ("color 2");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
     system ("cls");
-
-    system ("color 1");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 4");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 7");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
+    funcao_logo();
 
     printf ("\n\nO pedido eh tele-entrega? (0 - Nao 1 - Sim 2 - Retira): ");
     scanf ("%d", &teleEntrega);
@@ -322,33 +250,7 @@ int main()
     }
 
     system ("cls");
-    Sleep (500);
-    system ("color 2");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 1");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 4");
-    printf ("\n\n           /////////////////////////////////////////////////////\n");
-    printf ("           /////////  BEM VINDO AO HAMBURGUER DE GATO //////////\n");
-    printf ("           /////////////////////////////////////////////////////\n");
-    Sleep (750);
-    system ("cls");
-
-    system ("color 7");
-    printf ("\n\n           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    printf ("           |||||||||  BEM VINDO AO HAMBURGUER DE GATO ||||||||||\n");
-    printf ("           |||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-    Sleep (750);
+    funcao_logo();
 
     if ((menu1 == 0) && (menu2 == 0 ) && (menu3 == 0))
     {
@@ -486,16 +388,10 @@ int main()
         else if (teleEntrega == 2)
             totalGeral = total1 + total2 + total3;
 
-fflush(stdin);
-
-
-
     printf ("\n\nO valor total a pagar eh\t\t\t\t\tR$ %0.2f\n\n\n",totalGeral);
 
     printf ("Data do Pedido: ");
     system ("\nDATE/t");
-    //system (" TIME/t");
-    printf (" Previsao: ");
     }
 
     system ("pause");
